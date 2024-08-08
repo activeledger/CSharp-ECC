@@ -1,0 +1,12 @@
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/bin/Debug/net8.0/ActiveledgerECC.deps.json
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/bin/Debug/net8.0/ActiveledgerECC.dll
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/bin/Debug/net8.0/ActiveledgerECC.pdb
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.GeneratedMSBuildEditorConfig.editorconfig
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.AssemblyInfoInputs.cache
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.AssemblyInfo.cs
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.csproj.CoreCompileInputs.cache
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.dll
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/refint/ActiveledgerECC.dll
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.pdb
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ref/ActiveledgerECC.dll
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.csproj.AssemblyReference.cache
