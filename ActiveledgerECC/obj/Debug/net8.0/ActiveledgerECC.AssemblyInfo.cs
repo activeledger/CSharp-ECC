@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ActiveledgerECC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8603db9b436e2c5a4dcd26ff634254279a5c9674")]
 [assembly: System.Reflection.AssemblyProductAttribute("ActiveledgerECC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ActiveledgerECC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

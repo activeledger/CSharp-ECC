@@ -10,3 +10,4 @@
 /home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.pdb
 /home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ref/ActiveledgerECC.dll
 /home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.csproj.AssemblyReference.cache
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/obj/Debug/net8.0/ActiveledgerECC.sourcelink.json

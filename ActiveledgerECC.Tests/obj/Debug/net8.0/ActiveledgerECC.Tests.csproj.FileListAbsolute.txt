@@ -100,3 +100,4 @@
 /home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC.Tests/obj/Debug/net8.0/ActiveledgerECC.Tests.genruntimeconfig.cache
 /home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC.Tests/obj/Debug/net8.0/ref/ActiveledgerECC.Tests.dll
 /home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC.Tests/bin/Debug/net8.0/BouncyCastle.Crypto.dll
+/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC.Tests/obj/Debug/net8.0/ActiveledgerECC.Tests.sourcelink.json
