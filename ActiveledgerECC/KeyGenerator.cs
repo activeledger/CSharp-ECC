@@ -32,19 +32,28 @@ namespace ActiveledgerECC
           ecPs.H,
           ecPs.GetSeed()
       );
-      ECKeyGenerationParameters keyGenParam = new ECKeyGenerationParameters(ecParams, new SecureRandom());
+      ECKeyGenerationParameters keyGenParam;
+      keyGenParam = new ECKeyGenerationParameters(
+          ecParams,
+          new SecureRandom()
+          );
 
-      ECKeyPairGenerator keyPairGenerator = new ECKeyPairGenerator("ECDSA");
+      // Generate keys
+      ECKeyPairGenerator keyPairGenerator;
+      keyPairGenerator = new ECKeyPairGenerator("ECDSA");
+
       keyPairGenerator.Init(keyGenParam);
 
       AsymmetricCipherKeyPair keyPair = keyPairGenerator.GenerateKeyPair();
 
-      ECPrivateKeyParameters privateKeyParams = (ECPrivateKeyParameters)keyPair.Private;
-      ECPublicKeyParameters publicKeyParams = (ECPublicKeyParameters)keyPair.Public;
+      ECPrivateKeyParameters privateKeyParams;
+      privateKeyParams = (ECPrivateKeyParameters)keyPair.Private;
+      ECPublicKeyParameters publicKeyParams;
+      publicKeyParams = (ECPublicKeyParameters)keyPair.Public;
 
+      // Convert keys to hex
       byte[] dBytes = privateKeyParams.D.ToByteArray();
       this.privateKey = "0x" + Convert.ToHexString(dBytes);
-
 
       ECPoint publicKeyPoint = publicKeyParams.Q.Normalize();
       byte[] compressed = publicKeyPoint.GetEncoded(true);
