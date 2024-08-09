@@ -9,6 +9,8 @@ using Org.BouncyCastle.Asn1.Sec;
 
 using Org.BouncyCastle.Security;
 
+using Org.BouncyCastle.Math.EC;
+
 namespace ActiveledgerECC
 {
   public class KeyGenerator
@@ -40,12 +42,13 @@ namespace ActiveledgerECC
       ECPrivateKeyParameters privateKeyParams = (ECPrivateKeyParameters)keyPair.Private;
       ECPublicKeyParameters publicKeyParams = (ECPublicKeyParameters)keyPair.Public;
 
-      this.privateKey = "0x" + privateKeyParams.D.ToString(16);
+      byte[] dBytes = privateKeyParams.D.ToByteArray();
+      this.privateKey = "0x" + Convert.ToHexString(dBytes);
 
-      var publicKeyPoint = publicKeyParams.Q;
-      this.publicKey = "0x" +
-        (publicKeyPoint.YCoord.ToBigInteger().TestBit(0) ? "03" : "02") +
-        publicKeyPoint.XCoord.ToBigInteger().ToString(16);
+
+      ECPoint publicKeyPoint = publicKeyParams.Q.Normalize();
+      byte[] compressed = publicKeyPoint.GetEncoded(true);
+      this.publicKey = "0x" + Convert.ToHexString(compressed);
     }
 
     public string GetPrivateKey()
