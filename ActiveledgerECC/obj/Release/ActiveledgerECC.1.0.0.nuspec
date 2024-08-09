@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ActiveledgerECC</id>
+    <version>1.0.0</version>
+    <authors>Chris Holdt, Activeledger</authors>
+    <description>Activeledger ECC Library</description>
+    <repository type="git" commit="85ad6de760e4eedeea457e049dcb3188ac94aeb3" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="BouncyCastle" version="1.8.9" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/chris/git/Activeledger/sdks/csharp/ActiveledgerECC/bin/Release/net8.0/ActiveledgerECC.dll" target="lib/net8.0/ActiveledgerECC.dll" />
+  </files>
+</package>

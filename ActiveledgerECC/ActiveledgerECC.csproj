@@ -4,6 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>ActiveledgerECC</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Chris Holdt, Activeledger</Authors>
+    <Description>Activeledger ECC Library</Description>
+    <Company>Activeledger</Company>
   </PropertyGroup>
 
   <ItemGroup>
